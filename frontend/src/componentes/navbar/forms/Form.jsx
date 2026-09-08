@@ -21,8 +21,12 @@ function Form(){
                     <input type="text" id="cpf" name="cpf" />
                 </div>
                 <div className= {styles.inputGroup}>
-                    <label htmlFor="endereco">Endereço</label>
-                    <input type="text" id="endereco" name="endereco" />
+                    <label htmlFor="plano">Plano</label>
+                    <select id="plano" name="plano">
+                        <option value="mensal">Mensal</option>
+                        <option value="timestral">Timestral</option>
+                        <option value="anual">Anual</option>
+                    </select>
                 </div>
                 <button type="submit">Enviar</button>
             </form>
