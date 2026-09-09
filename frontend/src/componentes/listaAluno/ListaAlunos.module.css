@@ -45,3 +45,55 @@
     font-size: 0.9rem;
     color: #4b5563;
 }
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.cabecalho h2 {
+    margin: 0;
+    text-align: left;
+}
+
+.cabecalho button {
+    padding: 0.5rem 0.9rem;
+    border: 1px solid #2563eb;
+    border-radius: 6px;
+    background: #ffffff;
+    color: #2563eb;
+    cursor: pointer;
+    font-size: 0.85rem;
+    font-weight: 600;
+    transition: background 0.2s, color 0.2s;
+}
+
+.cabecalho button:hover:enabled {
+    background: #2563eb;
+    color: #ffffff;
+}
+
+.cabecalho button:disabled {
+    border-color: #cbd5e1;
+    color: #9ca3af;
+    cursor: not-allowed;
+}
+
+.contador {
+    margin: 0 0 0.8rem;
+    color: #6b7280;
+    font-size: 0.85rem;
+}
+
+.erro {
+    margin: 0 0 1rem;
+    padding: 0.75rem 0.9rem;
+    border: 1px solid #fecaca;
+    border-radius: 6px;
+    background: #fef2f2;
+    color: #b91c1c;
+    font-size: 0.9rem;
+    text-align: center;
+}
